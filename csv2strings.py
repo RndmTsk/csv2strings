@@ -103,6 +103,7 @@ def initializeLocalizedValues(languages):
 
 def writeStringsFile(path, file, languages, values):
     for language in languages:
+        # TODO: (TL) Remove "test=" when really really sure
         relativePath = os.path.join(path, language + ".lproj", "test-" + file)
         # TODO: (TL) Log to logfile if specified
         print "Writing " + relativePath
