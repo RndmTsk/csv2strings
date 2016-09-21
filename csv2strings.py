@@ -30,7 +30,7 @@ def main(argv=None):
             filename = arg
         if opt == "-l":
             baseLang = arg
-        if opt == "-o"
+        if opt == "-o":
             logFile = arg
 
     # Actual program start
